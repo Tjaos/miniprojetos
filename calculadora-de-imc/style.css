@@ -1,0 +1,87 @@
+html{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.main,.calculadora{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.calculadora{
+    display: flex;
+    width: 100%;
+    margin-top: 100px;
+    background-color: burlywood;
+    padding: 50px ;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px 1px;
+    width: 300px;
+}
+.titulo{
+    width: 100%;
+    border-bottom: 3px solid black;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+label{
+    font-size: larger;
+    font-weight: bold;
+}
+input{
+    padding: 20px 10px;
+    border-radius: 8px;
+    border: none;
+}
+.formItem{
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button{
+    width: 100%;
+    margin-top: 20px;
+    
+}
+button{
+    width: 100%;
+    padding: 15px 0;
+    border-radius: 8px;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    background-color: black;
+    color: burlywood;
+    cursor: pointer;
+    
+}
+.button2{
+    width: 80px;
+    margin-top: 20px;
+}
+.button2 button{
+    width: 100%;
+    background-color: rgb(255, 107, 107);
+    color: black;
+}
+
+#resultado{
+    width: 100%;
+    padding: 50px 20px;
+    box-sizing: border-box;
+    text-align: justify;
+    line-height: 25px;
+    font-size: larger;
+    margin-top: 30px;
+    border-radius: 8px;
+    background-color: black;
+    color: burlywood;
+}
+
